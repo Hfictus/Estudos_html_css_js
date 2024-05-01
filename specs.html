@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/specs.css"/>
+</head>
+<script src="javaScript/funcoes.js"></script>
+<body>
+    <div id="interface">   
+        <header id="main-header">
+            <nav class="main-nav container">
+                <ul>
+                    <div class="menu">
+                        <li onmouseover="mudaFoto('home')" onmouseout="mudaFoto('especificacoes')"><a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('especificacoes')" onmouseout="mudaFoto('especificacoes')"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('fotos')" onmouseout="mudaFoto('especificacoes')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('multimidia')" onmouseout="mudaFoto('especificacoes')"><a href="multimidia.html">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('contato')" onmouseout="mudaFoto('especificacoes')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    </div>                                
+                    <div class="menuMobile">
+                        <li><a href="index.html"><img src="img/home.png"></a></li>
+                        <li><a href="specs.html"><img class="hidden-link" src="img/especificacoes.png"><img src="img/glass-oculos-preto-peq.png"></a></li>
+                        <li><a href="fotos.html"><img src="img/fotos.png"></a></li>
+                        <li><a href="multimidia.html"><img src="img/multimidia.png"></a></li>
+                        <li><a href="fale-conosco.html"><img src="img/contato.png"></a></li>
+                    </div>
+                </ul>
+                <div class="main-titles-and-img">
+                    <div class="main-titles">
+                        <h1>Google Glass</h1>
+                        <h2>A revolução do Google está chegando</h2>
+                    </div>
+                    <div id="image-glass">
+                        <h2>ESPECIFICAÇÕES</h2>
+                        <img id="icone" src="img/especificacoes.png">
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="full-body">
+                <article id="main-news">
+                    <div class="article-header">
+                        <h5>Glass >Especificações</h5>
+                        <h2>Raio-X no Google Glass</h2>
+                        <h4>por Gustavo Guanabara</h4>
+                        <h6>Atualizado em 01/Maio/2013</h6>
+                    </div>
+                    <div class="article-body">
+                        <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+                        <section id="content">
+                            <div>
+                                <img id="small-img" src="img/glass-esquema-marcado-peq.jpg" usemap="#img-map1"/>
+                                <map name="img-map1">
+                                    <area shape="circle" coords="42,28,10" href="google-glass.html#gadgets" target="text-window"/>
+                                    <area shape="rect" coords="100,115,150,145" href="google-glass.html#tela" target="text-window"/>
+                                    <area shape="circle" coords="87,135,8" href="google-glass.html#camera" target="text-window"/>
+                                    <area shape="poly" coords="18,85,55,130,45,140,15,100" href="google-glass.html#sensores" target="text-window"/>
+                                </map>
+                            </div>
+                            <div>
+                                <img id="med-img" src="img/glass-esquema-marcado-med.jpg" usemap="#img-map2"/>
+                                <map name="img-map2">
+                                    <area shape="circle" coords="48,31,10" href="google-glass.html#gadgets" target="text-window"/>
+                                    <area shape="rect" coords="110,125,175,165" href="google-glass.html#tela" target="text-window"/>
+                                    <area shape="circle" coords="99,156,8" href="google-glass.html#camera" target="text-window"/>
+                                    <area shape="poly" coords="18,92,64,149,51,161,16,115" href="google-glass.html#sensores" target="text-window"/>
+                                </map>
+                            </div>
+                            <div>
+                                <img id="big-img" src="img/glass-esquema-marcado-grande.jpg" usemap="#img-map3"/>    
+                                <map name="img-map3">
+                                    <area shape="circle" coords="60,39,10" href="google-glass.html#gadgets" target="text-window"/>
+                                    <area shape="rect" coords="142,156,220,208" href="google-glass.html#tela" target="text-window"/>
+                                    <area shape="circle" coords="124,195,9" href="google-glass.html#camera" target="text-window"/>
+                                    <area shape="poly" coords="24,119,80,186,64,202,20,143" href="google-glass.html#sensores" target="text-window"/>
+                                </map>
+                            </div>
+                            <div>
+                                <iframe src="google-glass.html" name="text-window" id="img-frame"></iframe>
+                            </div
+                        </section>
+                    </div>
+                </article>
+            </section>    
+        </main>
+        
+
+        <footer id="main-footer" class="container">
+            <div class="footer-information">
+                <p>Copyright 2013 - by Gustavo Guanabara</p>
+                <div>
+                    <a href="http://facebook.com/cursosemvideo" target="_blank"><img id="faceB" src="img/facebook.png"/></a>
+                    <a href="http://twitter.com/cursosemvideo" target="_blank"><img id="twitt" src="img/twitter.png"/></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
