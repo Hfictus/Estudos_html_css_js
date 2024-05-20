@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 600px) {
+    header#main-header div {
+        background-color: rgb(148, 148, 148);
+        border: 1px solid black;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    
+    #header-main-titles {
+        padding: 10px;
+    }
+
+    menu {
+        display: block;
+        
+    }
+    
+    
+        
+}
