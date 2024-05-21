@@ -6,8 +6,17 @@
     padding: 0;
 }
 
-#interface {
-    width: 96vw;
-    margin: auto;
+body {
+    background-color: rgb(133, 121, 121);
 }
 
+#interface {
+    background-color: white;
+    width: 96vw;
+    margin: auto;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
