@@ -18,6 +18,8 @@
     }
     
     menu ul {
+        display: block;
+        width: 92vw;
         list-style-type: none;
     }
     
@@ -28,12 +30,14 @@
         text-align: center;
         background-color: rgb(87, 87, 87);
         color: white;
+        border-radius: 5px;
     }
 
     menu a:hover {
         background-color: gray;
-        color: black;
-        font-weight: bold;
+        font-weight: bolder;
+        border: 1px solid white;
+        text-shadow: 1px 1px 1px black;
     }
         
 }
