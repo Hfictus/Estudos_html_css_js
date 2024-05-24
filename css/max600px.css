@@ -12,7 +12,11 @@
     #header-main-titles {
         padding: 10px;
     }
-
+    #logo-mobile {
+        width: 150px;
+        border-radius: 10px;
+    }
+        
     menu {
         display: block;
     }
