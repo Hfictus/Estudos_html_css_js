@@ -12,13 +12,15 @@
     #header-main-titles {
         padding: 10px;
     }
-    #logo-mobile {
+    #menu-glass {
+        opacity: .3;
         width: 150px;
+        padding: 10px;
         border-radius: 10px;
     }
         
     menu {
-        display: block;
+        display: none;
     }
     
     menu ul {
@@ -26,7 +28,7 @@
         width: 92vw;
         list-style-type: none;
     }
-    
+        
     menu a {
         display: block;
         padding: 8px;

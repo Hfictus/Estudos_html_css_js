@@ -16,8 +16,8 @@
           <h2>A revolução do Google está chegando</h2>
        </div>
        <div id="menu">
-            <img id="logo-mobile" src="img/glass-logo-peq.jpg" alt="logo do Google Glass">
-            <menu>
+            <img id="menu-glass" onclick="clickMenu()" src="img/glass-logo-peq.jpg" alt="logo do Google Glass">
+            <menu id="items-menu-glass">
                 <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="specs.html">Especificações</a></li>
@@ -36,5 +36,11 @@
     
         </footer>
     </div>
+    <script>
+        function clickMenu() {
+            let menu = document.getElementById('items-menu-glass')
+            menu.style.display = 'block'
+        }
+    </script>
 </body>
 </html>
