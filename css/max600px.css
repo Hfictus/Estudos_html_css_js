@@ -21,6 +21,7 @@
         
     menu {
         display: none;
+        position: relative;
     }
     
     menu ul {
@@ -28,7 +29,14 @@
         width: 92vw;
         list-style-type: none;
     }
-        
+      
+    #img-home {
+        width: 40px;
+        position: absolute;
+        left: 18px;
+        top: 5px;
+    }
+
     menu a {
         display: block;
         padding: 8px;
