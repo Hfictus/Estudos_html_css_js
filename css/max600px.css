@@ -16,7 +16,9 @@
         opacity: .3;
         width: 150px;
         padding: 10px;
+        border: 1px solid darkgray;
         border-radius: 10px;
+        box-shadow: 1px 1px 2px rgb(99, 99, 99);
     }
         
     menu {
@@ -30,11 +32,14 @@
         list-style-type: none;
     }
       
-    #img-home {
-        width: 40px;
+    #img-home, #img-especificacoes {
         position: absolute;
         left: 18px;
         top: 5px;
+    }
+
+    #img-glass {
+        padding: 5px;
     }
 
     menu a {
