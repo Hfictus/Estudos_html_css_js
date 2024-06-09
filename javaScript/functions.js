@@ -1,4 +1,5 @@
 
+//Menu mobile
 let clicarMenu = document.getElementById('menu-glass')
 clicarMenu.addEventListener("click", clickMenu)
 
@@ -12,4 +13,13 @@ function clickMenu() {
         menu.style.display = 'block'
         clicarMenu.style.opacity = 1
     }
+}
+
+function mudaFoto(foto) {
+    document.getElementById("#img-page").src = "img/" + foto + ".webp";
+}
+
+function carregarImg(img) {
+    let img_logo = document.getElementById("img-page");
+    img_logo.src = "img/" + img + ".webp";
 }
