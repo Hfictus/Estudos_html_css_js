@@ -2,10 +2,17 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    #img-page {
+    #img-page, #menu-glass {
         display: none;
     }
 
+    #main-header {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    #items-menu-glass ul {
+        display: flex;
+    }
 }
 

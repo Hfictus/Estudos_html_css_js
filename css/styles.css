@@ -18,6 +18,14 @@ body {
     border-radius: 10px;
 }
 
+#main-header {
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
 }

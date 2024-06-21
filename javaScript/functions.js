@@ -15,11 +15,4 @@ function clickMenu() {
     }
 }
 
-function mudaFoto(foto) {
-    document.getElementById("#img-page").src = "img/" + foto + ".webp";
-}
-
-function carregarImg(img) {
-    let img_logo = document.getElementById("img-page");
-    img_logo.src = "img/" + img + ".webp";
-}
+        

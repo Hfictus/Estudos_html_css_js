@@ -30,7 +30,6 @@
     menu ul {
         display: block;
         width: 92vw;
-        list-style-type: none;
     }
       
     #img-page {
@@ -40,6 +39,7 @@
     }
 
     #img-glass {
+        width: 40px;
         padding: 5px;
     }
 
