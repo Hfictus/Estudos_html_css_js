@@ -1,17 +1,18 @@
 
 //Menu mobile
-let clicarMenu = document.getElementById('menu-glass')
+const clicarMenu = document.getElementById('menu-glass')
 clicarMenu.addEventListener("click", clickMenu)
-
 function clickMenu() {
-    let menu = document.getElementById('items-menu-glass')
-    
-    if(menu.style.display == 'block') {
-        menu.style.display = 'none'
-        clicarMenu.style.opacity = .3
+    const menu = document.getElementById('items-menu-glass')
+    const mainHeader = document.getElementById("main-header") ;
+    if(menu.style.display == "block") {
+        menu.style.display = "none";
+        mainHeader.style.backgroundColor = "white";
+        clicarMenu.style.opacity = .3;
     }else{
-        menu.style.display = 'block'
-        clicarMenu.style.opacity = 1
+        menu.style.display = "block";
+        mainHeader.style.backgroundColor = "rgb(125, 124, 124)";
+        clicarMenu.style.opacity = 1;
     }
 }
 

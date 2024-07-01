@@ -4,7 +4,6 @@
 @media only screen and (max-width: 600px) {
     
     header#main-header div {
-        background-color: rgb(148, 148, 148);
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
@@ -14,10 +13,10 @@
         padding: 10px;
     }
     #menu-glass {
-        opacity: .3;
+        opacity: .5;
         width: 150px;
         padding: 10px;
-        border: 1px solid darkgray;
+        border: 1px solid rgb(144, 143, 143);
         border-radius: 10px;
         box-shadow: 1px 1px 2px rgb(99, 99, 99);
     }
@@ -47,7 +46,7 @@
         padding: 8px;
         border: 1px solid white;
         text-align: center;
-        background-color: rgb(87, 87, 87);
+        background-color: rgb(125, 124, 124);
         font-weight: bold;
         color: white;
         text-shadow: 1px 1px 1px black;
